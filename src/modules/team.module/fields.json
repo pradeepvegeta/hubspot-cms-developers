@@ -1,0 +1,72 @@
+[
+  {
+   "children": [
+    {
+     "default": {
+      "size_type": "auto",
+      "src": "https://242563005.fs1.hubspotusercontent-na2.net/hubfs/242563005/image.png",
+      "alt": "image",
+      "loading": "lazy",
+      "width": 268,
+      "height": 308,
+      "max_width": 268,
+      "max_height": 308
+     },
+     "display_width": null,
+     "id": "38203939-317e-b013-952a-84d895097ac1",
+     "label": "Image",
+     "locked": false,
+     "name": "image_field",
+     "required": false,
+     "resizable": true,
+     "responsive": true,
+     "show_loading": false,
+     "type": "image"
+    },
+    {
+     "allow_new_line": false,
+     "default": "Characters",
+     "display_width": null,
+     "id": "dd45f047-fd76-dbf6-dc64-ec450d1bd37e",
+     "label": "Text",
+     "locked": false,
+     "name": "text_field",
+     "placeholder": "Name",
+     "required": false,
+     "show_emoji_picker": false,
+     "type": "text",
+     "validation_regex": ""
+    }
+   ],
+   "default": [
+    {
+     "image_field": {
+      "size_type": "auto",
+      "src": "https://242563005.fs1.hubspotusercontent-na2.net/hubfs/242563005/image.png",
+      "alt": "image",
+      "loading": "lazy",
+      "width": 268,
+      "height": 308,
+      "max_width": 268,
+      "max_height": 308
+     },
+     "text_field": "Characters"
+    }
+   ],
+   "display_width": null,
+   "expanded": false,
+   "group_occurrence_meta": null,
+   "id": "3adad3ef-ef98-c37e-7573-bfba90a4ffd6",
+   "label": "Field group",
+   "locked": false,
+   "name": "field_group",
+   "occurrence": {
+    "default": 1,
+    "max": 4,
+    "min": 1
+   },
+   "required": false,
+   "tab": "CONTENT",
+   "type": "group"
+  }
+ ]

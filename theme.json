@@ -1,0 +1,23 @@
+{
+  "label" : "HubSpot CMS Developers",
+  "author": {
+    "name": "Vital",
+    "email": "developer@vitaldesign.com",
+    "url": "https://vitaldesign.com/"
+	},
+  "documentation_url": "https://vitaldesign.com/team/",
+  "example_url": "https://vitaldesign.com/",
+  "preview_path": "./templates/home.html",
+  "screenshot_path": "./images/template-previews/home.png",
+  "enable_domain_stylesheets": false,
+  "license": "./license.txt",
+  "responsive_breakpoints": [
+    {
+      "name": "mobile",
+      "mediaQuery": "@media (max-width: 799px)",
+      "previewWidth": {
+        "value": 375
+      }
+    }
+  ]
+}

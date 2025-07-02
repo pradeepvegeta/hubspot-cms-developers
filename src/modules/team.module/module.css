@@ -1,0 +1,42 @@
+.team-module {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    h2 {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 43px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .team-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 268px);
+        gap: 30px;
+        justify-content: center;
+
+        @media (width <= 900px) {
+            grid-template-columns: repeat(2, 268px);
+        }
+
+        .team-column {
+            img {
+                width: 268px;
+                height: auto;
+                aspect-ratio: 16 / 18.5;
+                object-fit: cover;
+            }
+
+            .card__text {
+                padding-top: 20px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 0px;
+                letter-spacing: 1px;
+                text-transform: capitalize;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<!--
+  templateType: global_partial
+  label: Website header
+-->
+
+<header class="header">
+
+  {# Main header #}
+
+  <div class="header__container content-wrapper">
+
+    {# Header logo column #}
+
+      <div class="header__logo header__logo--main">
+        {% module "site_logo"
+          path="@hubspot/logo"
+        %}
+        {% menu "primary-menu" id="209530408641", site_map_name='Default', overrideable=False, root_type='site_root', flyouts='true', max_levels='2', flow='horizontal', label='Primary Menu' %}
+      </div>
+    </div>
+
+</header>
